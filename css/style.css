@@ -1,0 +1,202 @@
+.no-padding{
+	padding: 0px;
+}
+header{
+	background: url(../img/wal2.jpg)no-repeat center top;
+    background-size: cover;
+    padding: 3%;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat
+
+}
+
+.img-container{
+	display: block;
+    position: relative;
+    right: 0%;
+    width: 100%;
+}
+nav ul{
+	list-style: none;
+    text-decoration: none;
+    width: 100%;
+    margin: 18px 169px;
+    text-align: center;
+}
+nav ul li{
+	display: inline-block;
+    margin: 8px 12px;
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+}
+nav ul li a{
+	color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.header-content h2{
+	background-color: rgba(99, 96, 96, 0.86);
+    width: 79%;
+    color: #fff;
+    margin: 17px 0px;
+    padding: 7px 34px;
+}
+
+.header-content p{
+	color: #fff;
+
+}
+.header-content span{
+	border-bottom: 4px solid #fff;
+    display: block;
+    width: 7%;
+    margin: 12px 0px;
+}
+.btn-one{
+	background: transparent;
+    border: 1px solid #fff;
+    padding: 3px 48px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 34px 0px;
+}
+/*mid area*/
+.mid-area{
+	background-color: #F6F6F6;
+    width: 100%;
+    display: block;
+    padding: 3%;
+}
+.mid-content-area h2{
+	color: black;
+    width: 100%;
+    margin: 10% 1%;
+
+}
+.mid-content-area span{
+	border-bottom: 4px solid #282923;
+    display: block;
+    width: 3%;
+    margin: 10px 0px
+
+}
+.mid-content-area p{
+
+}
+
+.img-center{
+	display: block;
+    height: 300px;
+    position: relative;
+    top: 38%;
+    right: 0%;
+    width: 100%;
+}
+.img-center-1{
+	display: block;
+    width: 31%;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    margin-top: 6%;
+
+}
+
+/*portfolio*/
+
+.portfolio{
+	background: #000000e8;
+    color: #fff;
+    margin-top: 3.5%;
+}
+
+.portfolio-one h2{
+	margin-top: 24%;
+
+}
+
+.portfolio-one span{
+	border-bottom: 4px solid #fff;
+    display: block;
+    width: 6%;
+    margin: 27px 0px;
+
+}
+
+.btn-two{
+	background: transparent;
+    border: 1px solid #fff;
+    padding: 3px 48px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 34px 0px;
+
+}
+
+.img-portfolio{
+	margin-left: 9%;
+    margin-top: 33%;
+    padding: 0px 56px;
+}
+
+/*footer*/
+footer{
+	padding: 14px 0px;
+    background-color: red;
+}
+.footer-area h2{
+	text-align: center;
+    padding: 8px 27px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+
+
+
+/*mobile divice*/
+
+@media (min-width: 0px) and (max-width: 500px) {
+	.img-center {
+    height: 210px;
+
+}
+	nav ul{
+	 margin: 18px 10px
+	}
+	.btn-one{
+		text-align: center;
+		display: inline-block;
+		margin: 22px 113px;
+	}
+
+	.btn-two{
+		text-align: center;
+		display: inline-block;
+		margin: 22px 132px;
+	}
+
+
+	.header-content h2 {
+    	width:
+}
+
+/*small device*/
+@media (min-width: 500.01px) and (max-width: 768px){
+
+}
+
+/*medium device*/
+
+@media (min-width: 768.01px) and (max-width: 1199px){
+    
+}
+
+/*large device*/
+@media (max-width: 1200.01px) {
+
+}
